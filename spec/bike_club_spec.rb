@@ -38,3 +38,7 @@ RSpec.describe BikeClub do
         expect(bike_club.most_rides).to eq(biker1)
     end
 end
+
+# Ran out of time to complete best time for a givin ride and if a biker is eligible for a givin ride
+# My plan would have been to add additional methods to the bike_club for each. 
+# In my head it plan for something similar using .each to outline acceptable behaviour 
