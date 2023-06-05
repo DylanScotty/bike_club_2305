@@ -25,6 +25,6 @@ class Biker
     end
     
     def personal_record(ride)
-        rides[ride].nil? ? false : rides[ride].min
+        rides[ride]&.min || false
     end
 end
