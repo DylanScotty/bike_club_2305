@@ -27,4 +27,8 @@ class Biker
     def personal_record(ride)
         rides[ride]&.min || false
     end
+
+    def rides_count
+        @rides.length
+    end
 end
